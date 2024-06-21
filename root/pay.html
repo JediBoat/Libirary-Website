@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/books.css">
+    
+    <title>PAYING</title>
+</head>
+<body>
+    <img src="Images/navbutton.png" id="navbutton" class="toggle">
+    <div id ="nav" class="flex-container">
+        <nav class="navigation">
+            <a href="https://www.w3schools.com/">CONTACT US</a>
+            <a href="index.html">HOME</a>
+            <a href="https://www.w3schools.com/">ABOUT US</a>
+          </nav>
+    </div>
+
+    <div id="banner">
+        <h2> Payment Options </h2>
+    </div>
+
+    <div id="paymentdes">
+        <form>
+            <div id="cardinp">
+                <label for="cardnum">Card Number:</label>
+                <input type="text" id="cardnum" name="cardnum"><br><br>
+            </div>
+
+            <label for="month">Expiration Date</label>
+            <select id="month" name="month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            
+            <select id="year" name="year">
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+
+            </select>
+        
+            <div id ="seccode">
+            <br><label for="scode">Security Code:</label>
+            
+            <input type="text" id="scode" name="scode"><br>
+            <p id="confirmingbook"> </p>
+            </div>
+        </form>
+        <button class="conbutton conbutton1" id= "paying" type="button">Continue</button>
+    </div>
+<script src="js/webpage.js" ></script>
+<script src="js/nav.js" ></script>
+</body>
